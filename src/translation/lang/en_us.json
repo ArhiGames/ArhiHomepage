@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "ultimanex": {
+      "name": "Ultima Nex",
+      "description": "What started as a small practice project to practice my multiplayer-programming skills with UE5, turned into a full steam release quickly... This is currently the project I'm most proud on, because I really think this is a good game."
+    },
+    "arhitodo": {
+      "name": "ArhiTodo",
+      "description": "As I needed a tool to plan my feature projects, I wrote this tool, a custom Kanban-Style Todo Application. Special to this Todo App is that all the features are useful features, not just random features thrown into the app."
+    },
+    "kitchenquest": {
+      "name": "Kitchen Quest",
+      "description": "This project started as a practice project too. I really do like the idea of the game and would like the game to be much better, but you can feel that I was pretty young when I created this game, and I can see it in the code too... :("
+    },
+    "findtheway": {
+      "name": "FindTheWay",
+      "description": "This was my first release I ever did. This game actually started as a practice project too, but my father recommended to try to publish this game for mobile stores, and here we are now. And I genuinely think this is a pretty fun game, especially considering my age back then."
+    }
+  }
+}
