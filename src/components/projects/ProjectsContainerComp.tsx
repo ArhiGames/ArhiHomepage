@@ -2,6 +2,7 @@ import ProjectCardInformationComp from "./ProjectCardInformationComp.tsx";
 import "./Projects.css"
 import type {Project, ProjectData} from "./Types.ts";
 import projectdata from "../../data/projects.json"
+import {getTranslated} from "../../translation/translation.ts";
 
 const ProjectsContainerComp = () => {
 
@@ -37,9 +38,15 @@ const ProjectsContainerComp = () => {
 
     return (
         <section id="projects">
-            {publishedProjects.map((project: Project, index: number) => {
-                return <ProjectCardInformationComp key={project.id} flipDirection={index % 2 == 1} project={project}/>
+            <h2>{getTranslated("sections.commercial_projects.header")}</h2>
+            {getTranslated("sections.commercial_projects.paragraph").split("\n").map((line: string) => {
+                return <p>{line}</p>
             })}
+            <div className="projects">
+                {publishedProjects.map((project: Project, index: number) => {
+                    return <ProjectCardInformationComp key={project.id} flipDirection={index % 2 == 1} project={project}/>
+                })}
+            </div>
         </section>
     )
 
