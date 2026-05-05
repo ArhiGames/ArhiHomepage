@@ -9,6 +9,11 @@
       "paragraph": "These are all the projects I completely finished and released on a major platform. Also, I'm currently developing a new, large game which I want to release when I become 18 years old, in 2028."
     }
   },
+  "socials": {
+    "steam": "Steam",
+    "youtube": "YouTube",
+    "github": "GitHub"
+  },
   "projects": {
     "ultimanex": {
       "name": "Ultima Nex",
