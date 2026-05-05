@@ -1,6 +1,7 @@
 import './App.css'
-import ProjectsContainerComp from "./components/projects/ProjectsContainerComp.tsx";
+import CommercialProjectsContainerComp from "./components/projects/commercial/CommercialProjectsContainerComp.tsx";
 import AboutUsComp from "./components/aboutus/AboutUsComp.tsx";
+import HobbyProjectsContainerComp from "./components/projects/hobby/HobbyProjectsContainerComp.tsx";
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
         <>
             <main>
                 <AboutUsComp/>
-                <ProjectsContainerComp/>
+                <CommercialProjectsContainerComp/>
+                <HobbyProjectsContainerComp/>
             </main>
         </>
     )

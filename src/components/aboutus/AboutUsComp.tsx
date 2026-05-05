@@ -7,8 +7,8 @@ const AboutUsComp = () => {
     return (
         <section id="about-us">
             <h2>{getTranslated("sections.about_us.header")}</h2>
-            {getTranslated("sections.about_us.paragraph").split("\n").map((line: string) => {
-                return <p>{line}</p>
+            {getTranslated("sections.about_us.paragraph").split("\n").map((line: string, index: number) => {
+                return <p key={index}>{line}</p>
             })}
             <div className="socials">
                 <SocialLinkComp socialLinkType="github"/>

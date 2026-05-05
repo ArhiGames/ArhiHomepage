@@ -7,6 +7,10 @@
     "commercial_projects": {
       "header": "Commercial projects",
       "paragraph": "These are all the projects I completely finished and released on a major platform. Also, I'm currently developing a new, large game which I want to release when I become 18 years old, in 2028."
+    },
+    "hobby_projects": {
+      "header": "Hobby projects",
+      "paragraph": "As I (of course) did not only do commercial projects, I also did some smaller games or other projects just for fun. Some projects were also meant to be released commercially but than the prototype showed that it wouldn't be worth it to continue developing this project. Other's were practice projects and stayed that, practice projects...\nNote that not all projects I've every made are here, some projects for example are too private, as I usually make a small game for my parents birthdays. Other's are simply not worth putting on this page."
     }
   },
   "socials": {
@@ -30,6 +34,14 @@
     "findtheway": {
       "name": "FindTheWay",
       "description": "This was my first release I ever did. This game actually started as a practice project too, but my father recommended to try to publish this game for mobile stores, and here we are now. And I genuinely think this is a pretty fun game, especially considering my age back then."
+    },
+    "geschenkegeier": {
+      "name": "Geschenke Geier",
+      "description": "Presents are falling from the sky! Try to steal the presents from the other players & have more at the end of the game!"
+    },
+    "lumberquest": {
+      "name": "Lumber Quest",
+      "description": "A relaxing game set in the forest, where you chop down trees to get wood, which you then sell to your customers. This way, you can become very rich!"
     }
   }
 }

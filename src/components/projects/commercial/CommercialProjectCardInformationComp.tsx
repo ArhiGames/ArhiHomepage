@@ -1,13 +1,13 @@
-import {getTranslated, type TranslationKey} from "../../translation/translation.ts";
-import type {Project, Tag} from "./Types.ts";
-import ProjectTagComp from "./ProjectTagComp.tsx";
+import {getTranslated, type TranslationKey} from "../../../translation/translation.ts";
+import type {Project, Tag} from "../Types.ts";
+import ProjectTagComp from "../ProjectTagComp.tsx";
 
 interface Props {
     project: Project;
     flipDirection: boolean;
 }
 
-const ProjectCardInformationComp = ({ project, flipDirection }: Props) => {
+const CommercialProjectCardInformationComp = ({ project, flipDirection }: Props) => {
 
     const projectKey: string = `projects.${project.translationId}`;
 
@@ -15,7 +15,7 @@ const ProjectCardInformationComp = ({ project, flipDirection }: Props) => {
     const projectDescription: string = getTranslated(`${projectKey}.description` as TranslationKey);
 
     return (
-        <div className="project-card" style={{ flexDirection: flipDirection ? "row-reverse" : "row" }}>
+        <div className="commercial-project-card" style={{ flexDirection: flipDirection ? "row-reverse" : "row" }}>
             <div className="project-information">
                 <h3>{projectName}</h3>
                 <p>{projectDescription}</p>
@@ -33,4 +33,4 @@ const ProjectCardInformationComp = ({ project, flipDirection }: Props) => {
 
 }
 
-export default ProjectCardInformationComp;
+export default CommercialProjectCardInformationComp;

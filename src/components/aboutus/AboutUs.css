@@ -11,6 +11,13 @@
         border: 1px solid var(--border);
         border-radius: 12px;
         padding: 12px;
+        transition: all 0.25s;
+    }
+
+    .social:hover {
+        cursor: pointer;
+        filter: brightness(1.2);
+        transform: translateY(-3px);
     }
 
     .social-link {
