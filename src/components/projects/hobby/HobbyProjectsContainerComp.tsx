@@ -1,7 +1,7 @@
 import {getTranslated} from "../../../translation/translation.ts";
 import type {Project, ProjectData} from "../Types.ts";
 import HobbyProjectCardInformationComp from "./HobbyProjectCardInformationComp.tsx";
-import projectdata from "../../../data/projects.json"
+import projectdata from "../../../../public/data/projects.json"
 
 const HobbyProjectsContainerComp = () => {
 

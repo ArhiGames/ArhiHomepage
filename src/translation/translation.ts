@@ -1,5 +1,5 @@
-import en from "./lang/en_us.json"
-import de from "./lang/de_de.json"
+import en from "../../public/lang/en_us.json"
+import de from "../../public/lang/de_de.json"
 
 type Join<K, P> = K extends string | number ?
     P extends string | number ? `${K}${"" extends P ? "" : "."}${P}` : never : never;

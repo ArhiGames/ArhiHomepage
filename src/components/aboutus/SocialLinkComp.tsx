@@ -23,7 +23,7 @@ const SocialLinkComp = ({ socialLinkType }: Props) => {
     return (
         <div className="social">
             <img src={`/${(socialLinkType as string)}.svg`} alt="" width={28}></img>
-            <a className="social-link" href={socialLink}>{socialName}</a>
+            <a className="social-link" href={socialLink} target="_blank">{socialName}</a>
         </div>
     )
 

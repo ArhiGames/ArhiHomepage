@@ -1,7 +1,7 @@
 import CommercialProjectCardInformationComp from "./CommercialProjectCardInformationComp.tsx";
 import "../Projects.css"
 import type {Project, ProjectData} from "../Types.ts";
-import projectdata from "../../../data/projects.json"
+import projectdata from "../../../../public/data/projects.json"
 import {getTranslated} from "../../../translation/translation.ts";
 
 const CommercialProjectsContainerComp = () => {

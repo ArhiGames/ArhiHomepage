@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient20">
+      <stop
+         style="stop-color:#c900ff;stop-opacity:1;"
+         offset="0"
+         id="stop21" />
+      <stop
+         style="stop-color:#cd00cd;stop-opacity:1;"
+         offset="1"
+         id="stop22" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient20"
+       id="linearGradient22"
+       x1="-41.262547"
+       y1="13.371303"
+       x2="71.884087"
+       y2="13.371303"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <path
+       id="path1"
+       style="fill:url(#linearGradient22);stroke:#ae00af;stroke-width:1.89733"
+       transform="translate(50.725248,52.195545)"
+       d="M 70.206683,36.757425 C 66.048055,49.319947 45.089108,49.928833 33.26547,55.871283 21.441831,61.813734 6.8651222,76.203182 -5.6974002,72.044554 -18.259922,67.885926 -10.782175,44.537747 -16.724625,32.714108 -22.667076,20.89047 -41.550225,12.433715 -40.24938,-0.73514863 -39.259933,-10.75164 -36.309167,-39.585395 -27.186504,-43.838174 c 9.776692,-4.557673 25.9875461,26.823204 37.302175,29.090761 7.803976,1.563989 45.976236,-33.280594 53.658463,-31.19937 12.772538,3.460261 -16.050745,33.75557 -10.108295,45.57920866 C 59.60829,11.456065 74.365311,24.194903 70.206683,36.757425 Z" />
+    <text
+       xml:space="preserve"
+       style="font-size:97.8384px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;fill:#ffafff;fill-opacity:1;stroke:#ae00af;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       x="8.9842901"
+       y="79.941437"
+       id="text22"
+       transform="scale(1.0162793,0.98398146)"><tspan
+         id="tspan22"
+         style="fill:#ffafff;fill-opacity:1;stroke:#ae00af;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+         x="8.9842901"
+         y="79.941437">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:97.8384px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;fill:#ffebff;fill-opacity:1;stroke:#ae00af;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       x="53.932457"
+       y="118.95461"
+       id="text22-7"
+       transform="scale(1.0162793,0.98398147)"><tspan
+         id="tspan22-1"
+         style="fill:#ffebff;fill-opacity:1;stroke:#ae00af;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+         x="53.932457"
+         y="118.95461">G</tspan></text>
+  </g>
+</svg>

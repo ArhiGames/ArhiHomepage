@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "about_us": {
+      "header": "About me",
+      "paragraph": "Arhi Games is a independent solo games studio developing all types of different games depending on what I want to play myself. I really like developing Low-Level systems with C++, where I architect gameplay systems for games that are so robust that they can hold the whole game without me having to touch the code ever again.\nAs a young student I use every minute in my free time to do what I like: developing games.\nWhen I'm not developing games I make my own websites & their backends, like a custom Kanban-Todo App to plan my feature projects. With that I can also keep my GitHub-Contribution activity active, doing commits with websites is a loooottt easier than doing them with games."
+    },
+    "commercial_projects": {
+      "header": "Commercial projects",
+      "paragraph": "These are all the projects I fully completed and released on major platforms. Currently I'm developing a new, large game which I want to release when I become 18 years old, in 2028."
+    },
+    "hobby_projects": {
+      "header": "Hobby projects",
+      "paragraph": "As I (of course) do not only do commercial projects, I also did some smaller games or other projects just for fun. Some projects were also meant to be released commercially, but the prototype showed that it wouldn't be worth developing this project. Other's were practice projects and stayed that, practice projects...\nNote that not all projects I've every made can be seen here, some projects for example are too private, as I usually make a small game for my parents birthdays. Other's are simply not worth putting on this page."
+    }
+  },
+  "socials": {
+    "steam": "Steam",
+    "youtube": "YouTube",
+    "github": "GitHub"
+  },
+  "projects": {
+    "ultimanex": {
+      "name": "Ultima Nex",
+      "description": "What started as a small practice project to practice my multiplayer-programming skills with UE5, turned into a full steam release quickly... This is currently the project I'm most proud on - both for its gameplay and the clean architecture behind it"
+    },
+    "arhitodo": {
+      "name": "ArhiTodo",
+      "description": "As I needed a tool to plan my feature projects, I wrote this tool, a custom Kanban-Style Todo Application. Special to this Todo App is that all the features are useful features, no bloat."
+    },
+    "kitchenquest": {
+      "name": "Kitchen Quest",
+      "description": "This project started as a practice project too. I really do like the idea of the game and would like the game to be much better. While this is one of my favorite concepts, looking at the 'younger'-me code reminds me of how much I learned since creating this game"
+    },
+    "findtheway": {
+      "name": "FindTheWay",
+      "description": "This was my first release I ever did. This game actually started as a practice project too, but my father recommended to try to publish this game for mobile stores, and here we are now. And I genuinely think this is a pretty fun game, especially considering my age back then."
+    },
+    "geschenkegeier": {
+      "name": "Geschenke Geier",
+      "description": "A fun little project where presents are falling from the sky. You as the player try to steal the presents from the other players to have more than the others."
+    },
+    "lumberquest": {
+      "name": "Lumber Quest",
+      "description": "This project was once planned to be another Steam release, but then I noticed the exact same game already exists... A relaxing game set in the forest, where you chop down trees to get wood, which you then sell to your customers."
+    }
+  }
+}
