@@ -13,7 +13,7 @@ const HobbyProjectCardInformationComp = ({ project }: Props) => {
     const projectDescription: string = getTranslated(`${projectKey}.description` as TranslationKey);
 
     return (
-        <div className="hobby-project-card">
+        <div className="project-card hobby-project-card">
             <div className="project-showcase">
                 <img src={project.projectData.showcase} alt={`Image of ${projectName}`} width="320px"/>
             </div>

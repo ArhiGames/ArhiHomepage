@@ -4,11 +4,21 @@
     gap: 1rem;
 }
 
-.commercial-project-card {
-    display: flex;
+.project-card {
     background-color: var(--social-bg);
     border: 1px solid var(--border);
     border-radius: 12px;
+    transition: all 0.25s;
+}
+
+.project-card:hover {
+    filter: brightness(1.2);
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.commercial-project-card {
+    display: flex;
     padding: 0.5rem;
 
     .project-information {
@@ -55,8 +65,5 @@
 .hobby-project-card {
     display: flex;
     flex-direction: column;
-    background-color: var(--social-bg);
     padding: 1rem;
-    border: 1px solid var(--border);
-    border-radius: 12px;
 }
