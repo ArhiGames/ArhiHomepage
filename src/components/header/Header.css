@@ -12,7 +12,6 @@
     }
 
     h1 {
-        position: absolute;
         font-weight: bold;
         font-size: 8rem;
         color: white;
@@ -26,5 +25,18 @@
         max-height: 450px;
         border-bottom-left-radius: 180% 450px;
         border-bottom-right-radius: 180% 450px;
+    }
+}
+
+@media screen and (width <= 800px) {
+    .header {
+        .header-hero {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
     }
 }

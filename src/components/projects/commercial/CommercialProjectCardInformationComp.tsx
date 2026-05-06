@@ -15,7 +15,7 @@ const CommercialProjectCardInformationComp = ({ project, flipDirection }: Props)
     const projectDescription: string = getTranslated(`${projectKey}.description` as TranslationKey);
 
     return (
-        <div className="project-card commercial-project-card" style={{ flexDirection: flipDirection ? "row-reverse" : "row" }}>
+        <div className={`project-card commercial-project-card ${ flipDirection ? "reverse" : "" }`}>
             <div className="project-information">
                 <h3>{projectName}</h3>
                 <p>{projectDescription}</p>

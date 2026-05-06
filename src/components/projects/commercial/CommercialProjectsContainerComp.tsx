@@ -20,7 +20,7 @@ const CommercialProjectsContainerComp = () => {
             {getTranslated("sections.commercial_projects.paragraph").split("\n").map((line: string, index: number) => {
                 return <p key={index}>{line}</p>
             })}
-            <div className="projects">
+            <div className="commercial-projects">
                 {getAllProjectsData().map((project: Project, index: number) => {
                     return <CommercialProjectCardInformationComp key={project.id} flipDirection={index % 2 == 1} project={project}/>
                 })}

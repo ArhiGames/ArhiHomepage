@@ -2,7 +2,7 @@
   "sections": {
     "about_us": {
       "header": "About me",
-      "paragraph": "Arhi Games is a independent solo games studio developing all types of different games depending on what I want to play myself. I really like developing Low-Level systems with C++, where I architect gameplay systems for games that are so robust that they can hold the whole game without me having to touch the code ever again.\nAs a young student I use every minute in my free time to do what I like: developing games.\nWhen I'm not developing games I make my own websites & their backends, like a custom Kanban-Todo App to plan my feature projects. With that I can also keep my GitHub-Contribution activity active, doing commits with websites is a loooottt easier than doing them with games."
+      "paragraph": "Arhi Games is a independent solo games studio developing all types of different games depending on what I want to play myself. I really like developing Low-Level systems with C++, where I architect gameplay systems for games that are so robust that they can hold the whole game without me having to touch the code ever again.\nAs a young student I use every minute of my free time to do what I like: developing games.\nWhen I'm not developing games I make my own websites & their backends, like a custom Kanban-Todo App to plan my feature projects. With that I can also keep my GitHub-Contribution activity active, doing commits with websites is a loooottt easier than doing them with games."
     },
     "commercial_projects": {
       "header": "Commercial projects",

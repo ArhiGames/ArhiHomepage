@@ -2,6 +2,18 @@ main {
     margin: 0 20%;
 }
 
+@media screen and (800px <= width <= 1600px) {
+    main {
+        margin: 0 10%;
+    }
+}
+
+@media screen and (width < 800px) {
+    main {
+        margin: 0 1%;
+    }
+}
+
 section {
     display: flex;
     flex-direction: column;
