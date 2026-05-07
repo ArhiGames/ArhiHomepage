@@ -35,6 +35,14 @@
       "name": "FindTheWay",
       "description": "This was my first release I ever did. This game actually started as a practice project too, but my father recommended to try to publish this game for mobile stores, and here we are now. And I genuinely think this is a pretty fun game, especially considering my age back then."
     },
+    "homepage": {
+      "name": "Homepage",
+      "description": "Of course, this homepage / portfolio is a project too. I made this homepage to show others what I already developed more easily. This homepage still is in active development."
+    },
+    "platformdad": {
+      "name": "Platform Dad",
+      "description": "A little Jump & Run game where you compete against other players, additionally there are modifiers to make your run easier and the others harder."
+    },
     "geschenkegeier": {
       "name": "Geschenke Geier",
       "description": "A fun little project where presents are falling from the sky. You as the player try to steal the presents from the other players to have more than the others."

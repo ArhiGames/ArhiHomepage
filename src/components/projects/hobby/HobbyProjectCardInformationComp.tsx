@@ -12,8 +12,12 @@ const HobbyProjectCardInformationComp = ({ project }: Props) => {
     const projectName: string = getTranslated(`${projectKey}.name` as TranslationKey);
     const projectDescription: string = getTranslated(`${projectKey}.description` as TranslationKey);
 
+    function onProjectCardClicked() {
+        window.open(project.projectData.link, "_blank");
+    }
+
     return (
-        <div className="project-card hobby-project-card">
+        <div onClick={onProjectCardClicked} className="project-card hobby-project-card">
             <div className="project-showcase">
                 <img src={project.projectData.showcase} alt={`Image of ${projectName}`} width="320px"/>
             </div>

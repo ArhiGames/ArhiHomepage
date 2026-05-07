@@ -14,8 +14,12 @@ const CommercialProjectCardInformationComp = ({ project, flipDirection }: Props)
     const projectName: string = getTranslated(`${projectKey}.name` as TranslationKey);
     const projectDescription: string = getTranslated(`${projectKey}.description` as TranslationKey);
 
+    function onProjectCardClicked() {
+        window.open(project.projectData.link, "_blank");
+    }
+
     return (
-        <div className={`project-card commercial-project-card ${ flipDirection ? "reverse" : "" }`}>
+        <div onClick={onProjectCardClicked} className={`project-card commercial-project-card ${ flipDirection ? "reverse" : "" }`}>
             <div className="project-information">
                 <h3>{projectName}</h3>
                 <p>{projectDescription}</p>

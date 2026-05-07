@@ -2,6 +2,7 @@ export type Tag = "ue5" | "unity" | "cpp" | "steam" | "game" | "aspnet" | "react
 
 export type ProjectData = {
     showcase: string;
+    link: string;
     tags: Tag[];
 }
 
